@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(135deg, #1a1a1a, #333, #4CAF50);
+    background: linear-gradient(135deg, #1a1a1a, #333, #00BFFF); /* Изменено на голубой */
     color: #fff;
     animation: backgroundAnimation 10s ease infinite; /* Анимация фона */
 }
@@ -24,7 +24,7 @@ body {
 
 /* Заголовок */
 header {
-    background: rgba(76, 175, 80, 0.9);
+    background: linear-gradient(to left, blue, #FF5722); /* Изменено на голубой */
     color: white;
     padding: 30px 0;
     text-align: center;
@@ -108,7 +108,7 @@ h2 {
 
 /* Кнопка */
 button {
-    background: #4CAF50;
+    background: #00BFFF; /* Изменено на голубой */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -119,7 +119,7 @@ button {
 }
 
 button:hover {
-    background: #45a049; /* Темнее при наведении */
+    background: #009ACD; /* Темнее при наведении */
     transform: scale(1.05); /* Увеличение при наведении */
 }
 
